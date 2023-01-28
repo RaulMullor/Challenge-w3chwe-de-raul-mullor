@@ -7,6 +7,5 @@ export class PageComponent extends Component {
 
   render() {
     super.render();
-    this.domElement.innerHTML = ``;
   }
 }

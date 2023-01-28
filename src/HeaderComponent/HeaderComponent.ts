@@ -7,8 +7,12 @@ class HeaderComponent extends Component {
   render() {
     super.render();
     this.domElement.innerHTML = `
-    <h1>Pokemon</h1> 
-    <img src="pokemon-logo.svg" alt="pokemon logo">`;
+    <img src="pokemon-logo.svg" alt="pokemon logo">
+    <div class="bar">
+    <ul>
+    <li><a href="">Pokemon</li>
+    <li><a href="">Favorite</li>
+    </div>`;
   }
 }
 

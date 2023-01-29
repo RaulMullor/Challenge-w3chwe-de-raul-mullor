@@ -1,4 +1,5 @@
 export interface PokemonNameUrl {
+  id: any;
   name: string;
   url: string;
 }

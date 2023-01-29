@@ -1,7 +1,6 @@
 import Component from "../components/Component/Component.js";
 import { getPokemonGallery } from "../pokemons/getPokemon.js";
 import type { PokemonNameUrl } from "../pokemons/types.js";
-
 export class PokemonCard extends Component {
   private readonly pokemon: PokemonNameUrl;
 
